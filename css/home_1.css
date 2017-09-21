@@ -1,0 +1,270 @@
+body {
+	color: white;
+	margin: 0;
+	font-family: verdana;
+	font-size: 18px;
+}
+
+#line{
+}
+
+#header{
+	top: 0;
+	height: 20%;
+	width: 100%;
+	background-color: white;
+}
+
+#header_img{
+	height: 100%;
+	width: 100%;
+}
+
+#home{
+	margin-top: 10%;
+}
+
+#home img{
+	width: 100%;
+}
+
+#bar{
+	margin-top: 20px;
+	margin-left: 260px;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+#about:hover,#our:hover,#patient:hover,#dept:hover,#contact:hover{
+	transition: all 1s ease-in-out;
+	transform: scale(1.25);
+}
+
+#about{
+	border-radius: 4px;
+}
+
+ul li{
+	float: left;
+	width: 150px;
+	height: 40px;
+	background-color: #FF6347;
+	line-height: 40px;
+	text-align: center;
+	opacity: 0.7;
+	border-radius: 5px;
+}
+
+ul li a:hover{
+	background-color: black;
+	color: white;
+}
+
+ul li ul li{
+	font-size: 10px;
+	width: 200px;
+	display: none;
+	border-radius: 5px;
+}
+
+ul li:hover ul li{
+	display: block;
+}
+
+/*
+ul{
+	list-style-type: none;
+	margin: 0px auto;
+	padding: 0;
+	overflow: hidden;
+	border-radius: 10px;
+	position: fixed;
+	top: 22%;
+	border: 1px solid red;
+	transition: all 1s ease-in-out;
+}
+
+a:hover,a:active{
+		background-color:#7A991A;
+	}
+
+a:link,a:visited{
+	display: block;
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #3B3C36;
+	text-align: center;
+	width: 165px;
+	padding: 4px;
+	text-transform:uppercase; 
+}
+
+ul li{
+	float: left;
+	display: inline-block;
+	border: 1px solid ;
+}
+
+ul:hover{
+	transition: all 1s ease-in-out;
+	transform: scale(1.25);
+}
+
+ul li:hover{
+	display: block;
+}
+
+ul li ul li{
+	display: none;
+}
+
+p{
+	color: black;
+}
+
+.slider{
+	overflow: hidden;
+	height: 350px;
+}
+
+.slider figure div img{
+	height: 400px;
+	width: 100%;
+	float: left;
+}
+
+.slider figure div{
+	width: 20%;
+	float: left;
+}
+
+.slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 30s slidy infinite;
+}
+*/
+
+.slider{
+	overflow: hidden;
+	height:auto;
+}
+
+.slider figure div img{
+	 /* height: 400px;
+	float: left;
+	width: 100%; */
+	
+	
+	display: block;
+    margin: 0 auto;
+	margin-left:400px;
+    //width: 40%;
+	height:100%;
+	width: auto;
+	padding: 8px 12px;
+	float: left;
+}
+
+.slider figure div{
+	width: 20%;
+	float: left;
+}
+
+.slider figure{
+	/*position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 30s slidy infinite;*/
+	
+	position: relative;
+	width: 500%;
+	margin: 0;
+	padding: 8px 12px;
+	left: 0;
+	animation: 30s slidy infinite;
+}
+
+
+@keyframes slidy{
+	0%{
+		left: 0%;
+	}
+
+	10%{
+		left: 0%;
+	}
+
+	12%{
+		left: -100%;
+	}
+
+	22%{
+		left: -100%;
+	}
+
+	24%{
+		left: -200%;
+	}
+
+	34%{
+		left: -200%;
+	}
+
+	36%{
+		left: -300%;
+	}
+
+	46%{
+		left: -300%;
+	}
+
+	48%{
+		left: -400%;
+	}
+
+	58%{
+		left: -400%;
+	}
+
+	60%{
+		left: -300%;
+	}
+
+	70%{
+		left: -300%;
+	}
+
+	72%{
+		left: -200%;
+	}
+
+	82%{
+		left: -200%;
+	}
+
+	84%{
+		left: -100%;
+	}
+
+	94%{
+		left: -100%;
+	}
+
+	96%{
+		left: 0%;
+	}
+}

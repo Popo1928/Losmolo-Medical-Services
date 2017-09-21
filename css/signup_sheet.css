@@ -1,0 +1,85 @@
+
+
+
+html {
+	background: url("images/m1.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	margin: 0;
+	font-family: verdana;
+	color: white;
+	font-size: 18px;
+}
+
+.container {
+	width: 560px;
+	height: 660px;
+	text-align: center;
+	background-color: rgba(52,73,94,0.7);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 15%;
+	margin-left: 620px;
+}
+
+.container u {
+	color: #99ff99;
+	text-decoration-style: solid; 
+	font-family: verdana;
+	text-align: center;
+}
+
+input[name="confirm"] {
+	
+}
+
+input[value="Female"] {
+	margin-right: 25px;
+}
+
+input[value="Male"] {
+	margin-right: 22px;
+}
+
+input[value="Others"] {
+	margin-right: 22px;
+}
+
+.container label {
+	float: left;
+	margin-left: 40px;
+}
+
+input[type="text"], input[type="password"],input[type="textarea"], input[type="date"],input[type="email"],input[type="number"] {
+	height: 28px;
+	width: 250px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 20px;
+	border-radius: 4px;
+	margin-right: 30px;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="date"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.btn-signup {
+	padding: 15px 25px;
+	color: #fff;
+	background-color: #2ECC71;
+	border: none;
+	border-radius: 4px;
+	border-bottom: 4px solid #27AE60;
+	text-align: center;
+}
